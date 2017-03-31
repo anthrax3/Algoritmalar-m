@@ -7,6 +7,15 @@ public class Square_and_Multiply {
 		// TODO Auto-generated constructor stub
 		
 	}
+	/**
+	 * 
+	 * (17,21,22) = 17^21(mod22)
+	 * 
+	 * @param a kuvveti alınacak taban
+	 * @param b kuvvet değeri
+	 * @param n mod alma tabanı
+	 * @return 
+	 */
 	public static int SquareAndMultiply(int a,int b,int n) {
 		char [] binary = convertBinary(b).toCharArray();
 		int y=1;
@@ -18,6 +27,11 @@ public class Square_and_Multiply {
 		}
 		return y;
 	}
+	/**
+	 * 
+	 * @param n integer bir sayıyı binary formata çeviriyor
+	 * @return 22 = 10110 gibi
+	 */
 	public static String convertBinary(int n){
 		StringBuilder binary = new StringBuilder();
 		while(n>0){
