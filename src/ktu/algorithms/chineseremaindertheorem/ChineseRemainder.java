@@ -6,6 +6,16 @@ public class ChineseRemainder {
 		// TODO Auto-generated constructor stub
 	}
 
+	/**Açıklama :
+	 * 				x = 2mod3
+	 * 				x = 3mod5
+	 * 				x = 2mod2
+	 * 
+	 * @param k kaça bölünecek
+	 * @param a kalanı ifade eder
+	 * @param m modulü ifade eder
+	 * @return
+	 */
 	public int ChineseAlgorithm(int k, int a[], int m[]) {
 
 		int M = 1;
