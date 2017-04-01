@@ -16,7 +16,7 @@ public class Square_and_Multiply {
 	 * @param n mod alma tabanı
 	 * @return 
 	 */
-	public static int SquareAndMultiply(int a,int b,int n) {
+	public  int SquareAndMultiply(int a,int b,int n) {
 		char [] binary = convertBinary(b).toCharArray();
 		int y=1;
 		for (int i = 0; i<binary.length; i++) {
